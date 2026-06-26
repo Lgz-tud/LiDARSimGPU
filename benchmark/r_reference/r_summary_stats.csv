@@ -1,0 +1,11 @@
+metric,value
+n_voxels,263570.0
+n_voxels_ground,40401.0
+n_voxels_canopy,223169.0
+vxf_z_max,40.0
+vxf_z_mean,20.8507455324961
+n_lidar_points,37945.0
+n_lidar_ground,5067.0
+n_lidar_canopy,32878.0
+lidar_z_max,40.0
+lidar_z_mean,21.7227039135591

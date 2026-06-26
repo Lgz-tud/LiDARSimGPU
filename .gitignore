@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+.venv/
+.pytest_cache/
+
+.claude/
+
+*.tif
+*.las
+*.laz
+.DS_Store
+Thumbs.db

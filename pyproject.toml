@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "LiDARSimGPU"
+version = "0.1.0"
+description = "GPU-accelerated forest voxelisation and Beer-Lambert LiDAR simulation"
+readme = "README.md"
+license = "GPL-3.0-or-later"
+requires-python = ">=3.10"
+authors = [
+    { name = "Lgz-tud" },
+]
+dependencies = [
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "torch>=2.0",
+]
+
+[project.optional-dependencies]
+viz = ["matplotlib>=3.7"]
+raster = ["rasterio>=1.3"]
+dev = ["pytest>=7.0", "pyarrow>=14.0", "matplotlib>=3.7", "rasterio>=1.3"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/lidarsim_gpu"]

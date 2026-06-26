@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "LiDARSimGPU: GPU-accelerated forest voxelisation and LiDAR simulation"
+abstract: >-
+  A PyTorch reimplementation of the slidaRtools voxel-forest and Beer-Lambert
+  LiDAR-simulation routines, fully vectorised for GPU execution.
+authors:
+  - family-names: Liu
+    given-names: Guanzhen
+type: software
+license: GPL-3.0-or-later
+version: 0.1.0
+url: "https://github.com/Lgz-tud/LiDARSimGPU"
+# TODO: add Zenodo DOI once the release is archived (Zenodo -> GitHub integration)
+# doi: 10.5281/zenodo.XXXXXXX
+# date-released: YYYY-MM-DD
+references:
+  - type: software
+    title: "slidaRtools: Tools for lidar simulation and lidar processing"
+    authors:
+      - family-names: Knapp
+        given-names: Nikolai
+    license: GPL-3.0-only
+    url: "https://github.com/niknap/slidaRtools"
