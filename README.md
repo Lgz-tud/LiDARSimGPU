@@ -71,7 +71,10 @@ uv run python -m pytest benchmark/ -q
 - Knapp, N., Fischer, R., Huth, A., 2018. Linking lidar and forest modeling to
   assess biomass estimation across scales and disturbance states. Remote Sens.
   Environ. 205, 199–209. https://doi.org/10.1016/j.rse.2017.11.018
-- Liu, G., et al., in preparation. <!-- TODO: title, co-authors, journal, DOI on acceptance -->
+- Liu, G., Wimmler, M.-C., Fischer, R., Grimm, V., Berger, U., 2027. Virtual
+  forest experiments reveal how scale and disturbance shape LiDAR–AGB
+  relationships in mangroves. Ecological Modelling 524, 111904.
+  https://doi.org/10.1016/j.ecolmodel.2026.111904
 - Knapp, N., Huth, A., Kugler, F., Papathanassiou, K., Condit, R., Hubbell, S.P.,
   Fischer, R., 2018. Model-assisted estimation of tropical forest biomass change.
   Remote Sens. 10, 731. https://doi.org/10.3390/rs10050731
